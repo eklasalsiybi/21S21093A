@@ -1,8 +1,9 @@
 public class Patient {
     private String name;
+    private String ID;
     private String condition;
 
-    public Patient(String name, int age, String condition) {
+    public Patient(String name, int age, String condition, String ID;) {
         this.name = name;
         this.condition = condition;
     }
